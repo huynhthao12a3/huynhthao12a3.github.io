@@ -208,17 +208,18 @@
         // Đóng mở sub mobile menu
         // var subnavMenuMobile = document.getElementsByClassName('subnav-menu-mobile');
         // var subnavMenu = document.getElementsByClassName('subnav-menu');
-        // var subnavHeight = subnavMenuMobile.clientHeight;
-        // subnavMenu.onclick = function () {
-        //     var subClose = subnavMenuMobile.clientHeight === subnavHeight;
+        // var subnav = document.getElementsByClassName('subnav');
+
+        // subnavMenuMobile.onclick = function () {
+        //     var subClose = subnavMenuMobile.clientHeight === 46;
         //     if (subClose) {
-        //         subnavMenuMobile.style.height = 'auto';
+        //         subnav.style.height = 'auto';
         //     } else {
-        //         subnavMenuMobile.style.height = '46px';
+        //         subnav.style.height = 'auto';
         //     }
         // }
 
-        // Auto đóng khi chọn menu
+        //  Auto đóng khi chọn menu
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
         for (var i = 0; i < menuItems.length; i++) {
             var menuItem = menuItems[i];

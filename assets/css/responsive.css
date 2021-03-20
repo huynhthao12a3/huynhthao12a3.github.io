@@ -3,6 +3,40 @@
      
 }
 
+/* Tablet & Mobile  */
+@media (max-width: 1023px) {
+
+     #nav .subnav a {
+          padding:6px 12px;
+     }
+
+     .place-buy-btn {
+          padding: 15px 16px;
+     }
+
+     .contact-info p {
+          line-height: 2;
+     }
+
+     .contact-form .form-control {
+          padding: 15px;
+     }
+
+     #footer .socials-list {
+          font-size: 40px;
+          display: inline-flex; /* Tránh icon xuống dòng */
+     }
+
+     #footer .socials-list a {
+          margin: 0 8px;
+     }
+
+     #footer .copyright a {
+          padding: 12px 0;
+          display: inline-block;
+     }
+}
+
 /* Tablet  */
 @media (min-width: 740px) and (max-width: 1023px) {
     
@@ -65,6 +99,6 @@
      }
      
      .contact-form {
-          margin-top: 16px;
+          margin-top: 32px;
      }
 }
