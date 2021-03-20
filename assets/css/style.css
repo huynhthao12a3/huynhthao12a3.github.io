@@ -348,6 +348,7 @@ html {
      padding: 10px 16px;
      text-decoration: none;
      background-color: #000;
+     text-align: center;
 }
 
 .place-buy-btn:hover {
@@ -367,6 +368,7 @@ html {
 
 .contact-info i[class*="ti-"] {
      width: 30px;
+     font-weight: 800;
      display: inline-block;
 } /* Css Selector nâng cao - Css cho class có cùng chuỗi trong "" */
 
