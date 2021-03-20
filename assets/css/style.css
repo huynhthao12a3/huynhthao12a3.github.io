@@ -365,6 +365,15 @@ html {
      line-height: 1.5;
 }
 
+.contact-info p a {
+     color: #0030f0;
+     opacity: 0.8;
+}
+
+.contact-info p a:hover {
+     opacity: 1;
+}
+
 .contact-info i[class*="ti-"] {
      width: 30px;
      font-weight: 800;
