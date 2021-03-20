@@ -191,7 +191,7 @@ html {
      padding-top: 50%; /* là x% thì Chiều Cao = x% Chiều Rộng  */
      margin-top: 46px;
      /* background: url('/assets/img/slider1.jpg') top center / cover no-repeat; */
-     background-image: url('/assets/img/slider1.jpg');
+     background-image: url('../img/slider1.jpg'); /* Link tương đối */
      background-position: top center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -208,6 +208,7 @@ html {
      /* left: 0;
      right: 0; cách 3*/
      text-align: center;
+     text-shadow: 0 0 3px #000;
 }
 
 #slider .text-heading {
@@ -348,6 +349,8 @@ html {
      text-decoration: none;
      background-color: #000;
      text-align: center;
+     appearance: none;
+     -webkit-appearance: none; /* Fix lỗi button trên Safari */
 }
 
 .place-buy-btn:hover {
